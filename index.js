@@ -2,5 +2,13 @@
 var customerName;
 
 function upperCaseCustomerName(){
-  return customerName[0].upper + customerName.slice(1)
+  return customerName[0].toUpperCase() + customerName.slice(1);
+}
+
+function setBestCustomer() {
+  var bestCustomer = "not bob"; 
+}
+
+function overwriteBestCustomer(){
+  
 }
